@@ -23,6 +23,6 @@ urlpatterns = [
     path('auth/', include('djoser.urls')),
     path('auth/', include('djoser.urls.authtoken')),
     # api endpoints
-    path('api/', include('RestaurantManagementAPI.urls')),
+    path('api/', include('ResturantManagement.urls')),
 
 ]
